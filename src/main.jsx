@@ -7,8 +7,6 @@ const rootElement = document.querySelector('[data-js="root"]')
 
 const root = createRoot(rootElement)
 
-const abc = 'oi'
-
 root.render(
   <StrictMode>
     <App />
